@@ -1,0 +1,5 @@
+pipenv install --python 3.10
+python -m pip install Django
+pip freeze > requirements.txt
+pip install -r requirements.txt
+django-admin startproject core
