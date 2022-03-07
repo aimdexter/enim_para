@@ -61,9 +61,11 @@
 
 <!-- ABOUT THE PROJECT -->
 ## INTRODUCTION
-
+<div align="center">
+  
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
-
+  
+</div>
 Mise en Contexte:
 Le parascolaire représente l'échappatoire choisi par la quasi-totalité des Enimistes à tous
 ces efforts acharnés exercés lors de leurs études .En effet s’adonner à des activités
@@ -91,12 +93,31 @@ l'avancement des évènements.
 
 
 
-### Réaliser Avec
+### 💼 Réaliser Avec
 
-* [Django](https://www.djangoproject.com/)
-* [Tailwind Css](https://tailwindcss.com/)
-* [Mysql](https://www.mysql.com/)
+![](https://img.shields.io/badge/Design-figma-informational?style=flat&logo=figma&logoColor=white&color=4AB197)
+<br>
 
+![](https://img.shields.io/badge/Code-HTML5-informational?style=flat&logo=html5&logoColor=white&color=4AB197)
+![](https://img.shields.io/badge/Style-CSS-informational?style=flat&logo=css3&logoColor=white&color=4AB197)
+![](https://img.shields.io/badge/Style-Tailwind-informational?style=flat&logo=Tailwind-CSS&logoColor=white&color=4AB197)
+<br>
+
+![](https://img.shields.io/badge/Code-python-informational?style=flat&logo=python&logoColor=white&color=4AB197)
+![](https://img.shields.io/badge/Code-django-informational?style=flat&logo=django&logoColor=white&color=4AB197)
+![](https://img.shields.io/badge/Code-JavaScript-informational?style=flat&logo=JavaScript&logoColor=white&color=4AB197)
+<br>
+
+![](https://img.shields.io/badge/Db-MySQL-informational?style=flat&logo=MySQL&logoColor=white&color=4AB197)
+<br>
+
+![](https://img.shields.io/badge/Hosting-herokul-informational?style=flat&logo=heroku&logoColor=white&color=4AB197)
+
+
+![](https://img.shields.io/badge/Tools-Actions-informational?style=flat&logo=github-actions&logoColor=white&color=4AB197)
+![](https://img.shields.io/badge/Tools-NPM-informational?style=flat&logo=npm&logoColor=white&color=4AB197)
+![](https://img.shields.io/badge/Tools-GitHub-informational?style=flat&logo=GitHub&logoColor=white&color=4AB197)
+![](https://img.shields.io/badge/Tools-Jira-informational?style=flat&logo=Jira-Software&logoColor=white&color=4AB197)
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
@@ -109,7 +130,6 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
 * npm
   ```sh
   npm install npm@latest -g
@@ -119,7 +139,7 @@ This is an example of how to list things you need to use the software and how to
 
 _Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
-1. Get a free API Key at [https://example.com](https://example.com)
+1. 
 2. Clone the repo
    ```sh
    git clone https://github.com/your_username_/Project-Name.git
@@ -132,17 +152,6 @@ _Below is an example of how you can instruct your audience on installing and set
    ```js
    const API_KEY = 'ENTER YOUR API';
    ```
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -235,4 +244,4 @@ Use this space to list resources you find helpful and would like to give credit 
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: paraenim.png
