@@ -38,7 +38,7 @@
     <li>
       <a href="#INTRODUCTION">INTRODUCTION</a>
       <ul>
-        <li><a href="#Réaliser Avec">Réaliser Avec</a></li>
+        <li><a href="#Réaliser_Avec">Réaliser Avec</a></li>
       </ul>
     </li>
     <li>
@@ -93,7 +93,7 @@ l'avancement des évènements.
 
 
 
-### 💼 Réaliser Avec
+### 💼 Réaliser_Avec
 
 ![](https://img.shields.io/badge/Design-figma-informational?style=flat&logo=figma&logoColor=white&color=4AB197)
 <br>
@@ -131,7 +131,7 @@ To get a local copy up and running follow these steps.
 
 * Operating system : Centos 8
   
-* Python 3.10 installation 
+* Python 3.10
   
   ```sh
   https://tecadmin.net/how-to-install-python-3-10-on-centos-rhel-8-fedora/ 
@@ -167,6 +167,9 @@ To get a local copy up and running follow these steps.
    python manage.py makemigrations
    python manage.py migrate
    python manage.py createsuperuser
+   ```
+4. Run server 
+   ```sh
    python manage.py runserver
    ```
 <p align="right">(<a href="#top">back to top</a>)</p>
