@@ -29,9 +29,9 @@
   <summary>SOMMAIRE</summary>
   <ol>
     <li>
-      <a href="#INTRODUCTION">INTRODUCTION</a>
+      <a href="#INTRODUCTION">Introduction</a>
       <ul>
-        <li><a href="#Réaliser_Avec">Réaliser Avec</a></li>
+        <li><a href="#Réalisé_Avec">Réalisé Avec</a></li>
       </ul>
     </li>
     <li>
@@ -41,11 +41,8 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
@@ -86,7 +83,7 @@ l'avancement des évènements.
 
 
 
-### 💼 Réaliser_Avec
+### 💼 Réalisé_Avec
 
 ![](https://img.shields.io/badge/Design-figma-informational?style=flat&logo=figma&logoColor=white&color=4AB197)
 <br>
