@@ -125,34 +125,50 @@ l'avancement des évènements.
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+To get a local copy up and running follow these steps.
 
 ### Prerequisites
 
-* npm
+* Operating system : Centos 8
+  
+* Python 3.10 installation 
+  
   ```sh
-  npm install npm@latest -g
+  https://tecadmin.net/how-to-install-python-3-10-on-centos-rhel-8-fedora/ 
+  ```
+
+* Mysql
+
+  ```sh
+  https://www.linuxcapable.com/how-to-install-mysql-8-0-on-centos-8-stream/
+  https://dev.to/sm0ke/how-to-use-mysql-with-django-for-beginners-2ni0
+  ```
+  
+* Pipenv : virual environment 
+
+  ```sh
+  https://pipenv.pypa.io/en/latest/
   ```
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-1. 
-2. Clone the repo
+1. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/aimdexter/enim_para.git
    ```
-3. Install NPM packages
+2. Install packages
    ```sh
-   npm install
+   pipenv shell
+   pip install -r requirements.txt
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+3. Populate DB 
+   ```sh
+   cd core
+   python manage.py makemigrations
+   python manage.py migrate
+   python manage.py createsuperuser
+   python manage.py runserver
    ```
-
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
@@ -160,53 +176,37 @@ _Below is an example of how you can instruct your audience on installing and set
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
+- [x] Python v 3.10 installation
+- [x] Django v 4.0.1 installation
+- [x] Core project initialized
+- [x] Mysql database requirements installed
+- [x] Paramin DB created
+- [x] Core project DB switched from Sqllite to newly created Mysql DB
+- [ ] Main configuration :
+    - [x] Create main apps
+    - [ ] Create all apps
+    - [x] Set up basic models
+    - [ ] Set up all models
+    - [x] Set up superuser
+- [x] Link Django Core and different apps to Tailwindcss style sheet
+- [ ] final design
+- [ ] Different pages
+- [ ] Moroccan payment CMI
+- [ ] International payment 💳 VISA 💳 MASTERCARD
+- [ ] Migrate from monolithic architecture to microservices :
+    - [ ] APIs
+    - [ ] front-end ---> Nextjs
+    - [ ] Hosting DB ---> AWS vs ENIM SERVERS
+    - [ ] Hosting Back-end ---> AWS vs ENIM SERVERS
+    - [ ] Hosting front-end ---> VERCEL
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
 
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- CONTACT -->
-## Contact
-
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
-
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Distributed under the Apache License 2.0. See `LICENSE` for more information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -215,16 +215,14 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
+* [Django documentation](https://docs.djangoproject.com/en/4.0/)
+* [How To Structure Your Django Project](https://python.plainenglish.io/how-to-structure-your-django-project-a5d50333a644)
+* [How to Install MySQL 8.0 on CentOS 8 Stream](https://www.linuxcapable.com/how-to-install-mysql-8-0-on-centos-8-stream/)
+* [How to use MySql with Django - For Beginners](https://dev.to/sm0ke/how-to-use-mysql-with-django-for-beginners-2ni0)
+* [Django Tailwind’s documentation](https://django-tailwind.readthedocs.io/en/latest/)
+* [MySQL Connector/Python Developer Guide](https://dev.mysql.com/doc/connector-python/en/connector-python-django-backend.html)
+* [How to Manage your Python Projects with Pipenv & Pyenv](https://www.rootstrap.com/blog/how-to-manage-your-python-projects-with-pipenv-pyenv/)
 
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
