@@ -1,14 +1,5 @@
 # enim_para
 <div id="top"></div>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
-
-
 
 <!-- PROJECT SHIELDS -->
 <!--
@@ -18,48 +9,29 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
 
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="https://cdn-05.9rayti.com/rsrc/cache/widen_292/uploads/2012/07/mines-rabat-logo.png" alt="Logo" >
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">ENSMR: Ecole Nationale Supérieure des Mines de Rabat</h3>
 
-  <p align="center">
-    An awesome README template to jumpstart your projects!
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
-  </p>
 </div>
 
 
 
 <!-- TABLE OF CONTENTS -->
 <details>
-  <summary>Table of Contents</summary>
+  <summary>SOMMAIRE</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#INTRODUCTION">Introduction</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#Réalisé_Avec">Réalisé Avec</a></li>
       </ul>
     </li>
     <li>
@@ -69,11 +41,8 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
@@ -81,38 +50,64 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
-
+## INTRODUCTION
+<div align="center">
+  
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
+  
+</div>
+Mise en Contexte:
+Le parascolaire représente l'échappatoire choisi par la quasi-totalité des Enimistes à tous
+ces efforts acharnés exercés lors de leurs études .En effet s’adonner à des activités
+ludiques parallèlement au parcours scolaire quelles qu'elles soient, est essentiel à
+L'ENSMR du fait qu'elles sont le gage d'une meilleure adaptation à la vie scolaire et
+sociale .
+Néanmoins il arrive que les élèves ingénieurs confrontent des contraintes qui nuisent à
+leur amusement et leur divertissement .
+En effet la planification des réunions, l'avancement et le suivi des tâches se discutaient
+auparavant bel et bien sur les deux réseaux sociaux : Facebook et WhatsApp. Et comme
+le savons tous ces deux dernières plateformes ne sont ni efficaces ni professionnelles
+pour la gestion de telles activités . Du coup l'intervention d'une nouvelle application
+adaptée aux divers exigences mentionnées serai une solution efficace pour y remédier .
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
-
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-Use the `BLANK_README.md` to get started.
+Motivation Et Objectifs:
+* Pour les problèmes cités précédemment, la réalisation d'une application de gestion du
+parascolaire est nécessaire . Notre application mobile a pour but de digitaliser et
+centraliser le déroulement des activités parascolaires . En effet cette application va aider
+le responsable des activités parascolaires, les présidents des clubs et comités ainsi que
+les chefs de cellules à être plus efficaces dans la gestion du suivi des tâches . Aussi elle
+permettra les membres des clubs et comités à être à jour et toujours au courant de
+l'avancement des évènements.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
-### Built With
+### 💼 Réalisé_Avec
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+![](https://img.shields.io/badge/Design-figma-informational?style=flat&logo=figma&logoColor=white&color=4AB197)
+<br>
 
-* [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
+![](https://img.shields.io/badge/Code-HTML5-informational?style=flat&logo=html5&logoColor=white&color=4AB197)
+![](https://img.shields.io/badge/Style-CSS-informational?style=flat&logo=css3&logoColor=white&color=4AB197)
+![](https://img.shields.io/badge/Style-Tailwind-informational?style=flat&logo=Tailwind-CSS&logoColor=white&color=4AB197)
+<br>
 
+![](https://img.shields.io/badge/Code-python-informational?style=flat&logo=python&logoColor=white&color=4AB197)
+![](https://img.shields.io/badge/Code-django-informational?style=flat&logo=django&logoColor=white&color=4AB197)
+![](https://img.shields.io/badge/Code-JavaScript-informational?style=flat&logo=JavaScript&logoColor=white&color=4AB197)
+<br>
+
+![](https://img.shields.io/badge/Db-MySQL-informational?style=flat&logo=MySQL&logoColor=white&color=4AB197)
+<br>
+
+![](https://img.shields.io/badge/Hosting-herokul-informational?style=flat&logo=heroku&logoColor=white&color=4AB197)
+
+
+![](https://img.shields.io/badge/Tools-Actions-informational?style=flat&logo=github-actions&logoColor=white&color=4AB197)
+![](https://img.shields.io/badge/Tools-NPM-informational?style=flat&logo=npm&logoColor=white&color=4AB197)
+![](https://img.shields.io/badge/Tools-GitHub-informational?style=flat&logo=GitHub&logoColor=white&color=4AB197)
+![](https://img.shields.io/badge/Tools-Jira-informational?style=flat&logo=Jira-Software&logoColor=white&color=4AB197)
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
@@ -120,46 +115,53 @@ This section should list any major frameworks/libraries used to bootstrap your p
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+To get a local copy up and running follow these steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
+* Operating system : Centos 8
+  
+* Python 3.10
+  
   ```sh
-  npm install npm@latest -g
+  https://tecadmin.net/how-to-install-python-3-10-on-centos-rhel-8-fedora/ 
+  ```
+
+* Mysql
+
+  ```sh
+  https://www.linuxcapable.com/how-to-install-mysql-8-0-on-centos-8-stream/
+  https://dev.to/sm0ke/how-to-use-mysql-with-django-for-beginners-2ni0
+  ```
+  
+* Pipenv : virual environment 
+
+  ```sh
+  https://pipenv.pypa.io/en/latest/
   ```
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/aimdexter/enim_para.git
    ```
-3. Install NPM packages
+2. Install packages
    ```sh
-   npm install
+   pipenv shell
+   pip install -r requirements.txt
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+3. Populate DB 
+   ```sh
+   cd core
+   python manage.py makemigrations
+   python manage.py migrate
+   python manage.py createsuperuser
    ```
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
+4. Run server 
+   ```sh
+   python manage.py runserver
+   ```
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
@@ -167,53 +169,37 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
+- [x] Python v 3.10 installation
+- [x] Django v 4.0.1 installation
+- [x] Core project initialized
+- [x] Mysql database requirements installed
+- [x] Paramin DB created
+- [x] Core project DB switched from Sqllite to newly created Mysql DB
+- [ ] Main configuration :
+    - [x] Create main apps
+    - [ ] Create all apps
+    - [x] Set up basic models
+    - [ ] Set up all models
+    - [x] Set up superuser
+- [x] Link Django Core and different apps to Tailwindcss style sheet
+- [ ] final design
+- [ ] Different pages
+- [ ] Moroccan payment CMI
+- [ ] International payment 💳 VISA 💳 MASTERCARD
+- [ ] Migrate from monolithic architecture to microservices :
+    - [ ] APIs
+    - [ ] front-end ---> Nextjs
+    - [ ] Hosting DB ---> AWS vs ENIM SERVERS
+    - [ ] Hosting Back-end ---> AWS vs ENIM SERVERS
+    - [ ] Hosting front-end ---> VERCEL
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
 
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- CONTACT -->
-## Contact
-
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
-
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Distributed under the Apache License 2.0. See `LICENSE` for more information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -222,16 +208,14 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
+* [Django documentation](https://docs.djangoproject.com/en/4.0/)
+* [How To Structure Your Django Project](https://python.plainenglish.io/how-to-structure-your-django-project-a5d50333a644)
+* [How to Install MySQL 8.0 on CentOS 8 Stream](https://www.linuxcapable.com/how-to-install-mysql-8-0-on-centos-8-stream/)
+* [How to use MySql with Django - For Beginners](https://dev.to/sm0ke/how-to-use-mysql-with-django-for-beginners-2ni0)
+* [Django Tailwind’s documentation](https://django-tailwind.readthedocs.io/en/latest/)
+* [MySQL Connector/Python Developer Guide](https://dev.mysql.com/doc/connector-python/en/connector-python-django-backend.html)
+* [How to Manage your Python Projects with Pipenv & Pyenv](https://www.rootstrap.com/blog/how-to-manage-your-python-projects-with-pipenv-pyenv/)
 
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -251,4 +235,4 @@ Use this space to list resources you find helpful and would like to give credit 
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: paraenim.png
